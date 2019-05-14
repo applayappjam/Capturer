@@ -28,194 +28,191 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.currentHoyKeyLabel = new System.Windows.Forms.Label();
+            this.currentHotKeyTextBox = new System.Windows.Forms.TextBox();
+            this.hoyKeyChangeButton = new System.Windows.Forms.Button();
+            this.captureModeLabel = new System.Windows.Forms.Label();
+            this.pathSettingLabel = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.currentPathLabel = new System.Windows.Forms.Label();
+            this.currentPathTextBox = new System.Windows.Forms.TextBox();
+            this.hotKeyLabel = new System.Windows.Forms.Label();
+            this.contactLabel = new System.Windows.Forms.Label();
+            this.contentLabel = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dragRadioBtn = new System.Windows.Forms.RadioButton();
+            this.programRadioBtn = new System.Windows.Forms.RadioButton();
+            this.fullScreenRadioBtn = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.userPathRadioBtn = new System.Windows.Forms.RadioButton();
+            this.desktopSaveRadioBtn = new System.Windows.Forms.RadioButton();
+            this.clipboardRadioBtn = new System.Windows.Forms.RadioButton();
+            this.tableLayoutPanel.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tableLayoutPanel1
+            // tableLayoutPanel
             // 
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel2, 0, 6);
-            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel1, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label4, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.label6, 0, 7);
-            this.tableLayoutPanel1.Controls.Add(this.label7, 0, 8);
-            this.tableLayoutPanel1.Controls.Add(this.groupBox1, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.groupBox2, 0, 4);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 12);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 9;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 75F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 75F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(260, 339);
-            this.tableLayoutPanel1.TabIndex = 0;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 3);
-            this.label1.Margin = new System.Windows.Forms.Padding(3);
-            this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(0, 1, 0, 1);
-            this.label1.Size = new System.Drawing.Size(69, 14);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "> 촬영 모드";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 98);
-            this.label2.Margin = new System.Windows.Forms.Padding(3);
-            this.label2.Name = "label2";
-            this.label2.Padding = new System.Windows.Forms.Padding(0, 1, 0, 1);
-            this.label2.Size = new System.Drawing.Size(69, 14);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "> 경로 설정";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Controls.Add(this.label3);
-            this.flowLayoutPanel1.Controls.Add(this.textBox1);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 118);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(255, 29);
-            this.flowLayoutPanel1.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 4);
-            this.label3.Margin = new System.Windows.Forms.Padding(3);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 12);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "ㅇ 설정된 경로";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Location = new System.Drawing.Point(94, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(148, 21);
-            this.textBox1.TabIndex = 1;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 228);
-            this.label4.Margin = new System.Windows.Forms.Padding(3);
-            this.label4.Name = "label4";
-            this.label4.Padding = new System.Windows.Forms.Padding(0, 1, 0, 1);
-            this.label4.Size = new System.Drawing.Size(53, 14);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "> 단축키";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.tableLayoutPanel.ColumnCount = 1;
+            this.tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel.Controls.Add(this.flowLayoutPanel2, 0, 6);
+            this.tableLayoutPanel.Controls.Add(this.captureModeLabel, 0, 0);
+            this.tableLayoutPanel.Controls.Add(this.pathSettingLabel, 0, 2);
+            this.tableLayoutPanel.Controls.Add(this.flowLayoutPanel1, 0, 3);
+            this.tableLayoutPanel.Controls.Add(this.hotKeyLabel, 0, 5);
+            this.tableLayoutPanel.Controls.Add(this.contactLabel, 0, 7);
+            this.tableLayoutPanel.Controls.Add(this.contentLabel, 0, 8);
+            this.tableLayoutPanel.Controls.Add(this.groupBox1, 0, 1);
+            this.tableLayoutPanel.Controls.Add(this.groupBox2, 0, 4);
+            this.tableLayoutPanel.Location = new System.Drawing.Point(12, 12);
+            this.tableLayoutPanel.Name = "tableLayoutPanel";
+            this.tableLayoutPanel.RowCount = 9;
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 75F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 75F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel.Size = new System.Drawing.Size(260, 339);
+            this.tableLayoutPanel.TabIndex = 0;
+            this.tableLayoutPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // flowLayoutPanel2
             // 
-            this.flowLayoutPanel2.Controls.Add(this.label5);
-            this.flowLayoutPanel2.Controls.Add(this.textBox2);
-            this.flowLayoutPanel2.Controls.Add(this.button1);
+            this.flowLayoutPanel2.Controls.Add(this.currentHoyKeyLabel);
+            this.flowLayoutPanel2.Controls.Add(this.currentHotKeyTextBox);
+            this.flowLayoutPanel2.Controls.Add(this.hoyKeyChangeButton);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 248);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(255, 29);
             this.flowLayoutPanel2.TabIndex = 6;
             // 
-            // label5
+            // currentHoyKeyLabel
             // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 8);
-            this.label5.Margin = new System.Windows.Forms.Padding(3);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 12);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "ㅇ 현재 단축키";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.currentHoyKeyLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.currentHoyKeyLabel.AutoSize = true;
+            this.currentHoyKeyLabel.Location = new System.Drawing.Point(3, 8);
+            this.currentHoyKeyLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.currentHoyKeyLabel.Name = "currentHoyKeyLabel";
+            this.currentHoyKeyLabel.Size = new System.Drawing.Size(85, 12);
+            this.currentHoyKeyLabel.TabIndex = 0;
+            this.currentHoyKeyLabel.Text = "ㅇ 현재 단축키";
             // 
-            // textBox2
+            // currentHotKeyTextBox
             // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox2.Location = new System.Drawing.Point(94, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(111, 21);
-            this.textBox2.TabIndex = 1;
+            this.currentHotKeyTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.currentHotKeyTextBox.Location = new System.Drawing.Point(94, 4);
+            this.currentHotKeyTextBox.Name = "currentHotKeyTextBox";
+            this.currentHotKeyTextBox.Size = new System.Drawing.Size(111, 21);
+            this.currentHotKeyTextBox.TabIndex = 1;
             // 
-            // button1
+            // hoyKeyChangeButton
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button1.Location = new System.Drawing.Point(211, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(37, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "변경";
-            this.button1.UseVisualStyleBackColor = true;
+            this.hoyKeyChangeButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.hoyKeyChangeButton.Location = new System.Drawing.Point(211, 3);
+            this.hoyKeyChangeButton.Name = "hoyKeyChangeButton";
+            this.hoyKeyChangeButton.Size = new System.Drawing.Size(37, 23);
+            this.hoyKeyChangeButton.TabIndex = 2;
+            this.hoyKeyChangeButton.Text = "변경";
+            this.hoyKeyChangeButton.UseVisualStyleBackColor = true;
+            this.hoyKeyChangeButton.Click += new System.EventHandler(this.hoyKeyChangeButton_Click);
             // 
-            // label6
+            // captureModeLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 283);
-            this.label6.Margin = new System.Windows.Forms.Padding(3);
-            this.label6.Name = "label6";
-            this.label6.Padding = new System.Windows.Forms.Padding(0, 1, 0, 1);
-            this.label6.Size = new System.Drawing.Size(60, 14);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "> Contact";
+            this.captureModeLabel.AutoSize = true;
+            this.captureModeLabel.Location = new System.Drawing.Point(3, 3);
+            this.captureModeLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.captureModeLabel.Name = "captureModeLabel";
+            this.captureModeLabel.Padding = new System.Windows.Forms.Padding(0, 1, 0, 1);
+            this.captureModeLabel.Size = new System.Drawing.Size(69, 14);
+            this.captureModeLabel.TabIndex = 0;
+            this.captureModeLabel.Text = "> 촬영 모드";
             // 
-            // label7
+            // pathSettingLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 303);
-            this.label7.Margin = new System.Windows.Forms.Padding(3);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(65, 12);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "github_site";
+            this.pathSettingLabel.AutoSize = true;
+            this.pathSettingLabel.Location = new System.Drawing.Point(3, 98);
+            this.pathSettingLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.pathSettingLabel.Name = "pathSettingLabel";
+            this.pathSettingLabel.Padding = new System.Windows.Forms.Padding(0, 1, 0, 1);
+            this.pathSettingLabel.Size = new System.Drawing.Size(69, 14);
+            this.pathSettingLabel.TabIndex = 2;
+            this.pathSettingLabel.Text = "> 경로 설정";
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.currentPathLabel);
+            this.flowLayoutPanel1.Controls.Add(this.currentPathTextBox);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 118);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(255, 29);
+            this.flowLayoutPanel1.TabIndex = 3;
+            // 
+            // currentPathLabel
+            // 
+            this.currentPathLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.currentPathLabel.AutoSize = true;
+            this.currentPathLabel.Location = new System.Drawing.Point(3, 7);
+            this.currentPathLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.currentPathLabel.Name = "currentPathLabel";
+            this.currentPathLabel.Size = new System.Drawing.Size(73, 12);
+            this.currentPathLabel.TabIndex = 0;
+            this.currentPathLabel.Text = "ㅇ 현재 경로";
+            // 
+            // currentPathTextBox
+            // 
+            this.currentPathTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.currentPathTextBox.BackColor = System.Drawing.SystemColors.Window;
+            this.currentPathTextBox.Location = new System.Drawing.Point(82, 3);
+            this.currentPathTextBox.Name = "currentPathTextBox";
+            this.currentPathTextBox.Size = new System.Drawing.Size(148, 21);
+            this.currentPathTextBox.TabIndex = 1;
+            // 
+            // hotKeyLabel
+            // 
+            this.hotKeyLabel.AutoSize = true;
+            this.hotKeyLabel.Location = new System.Drawing.Point(3, 228);
+            this.hotKeyLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.hotKeyLabel.Name = "hotKeyLabel";
+            this.hotKeyLabel.Padding = new System.Windows.Forms.Padding(0, 1, 0, 1);
+            this.hotKeyLabel.Size = new System.Drawing.Size(53, 14);
+            this.hotKeyLabel.TabIndex = 5;
+            this.hotKeyLabel.Text = "> 단축키";
+            // 
+            // contactLabel
+            // 
+            this.contactLabel.AutoSize = true;
+            this.contactLabel.Location = new System.Drawing.Point(3, 283);
+            this.contactLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.contactLabel.Name = "contactLabel";
+            this.contactLabel.Padding = new System.Windows.Forms.Padding(0, 1, 0, 1);
+            this.contactLabel.Size = new System.Drawing.Size(60, 14);
+            this.contactLabel.TabIndex = 7;
+            this.contactLabel.Text = "> Contact";
+            // 
+            // contentLabel
+            // 
+            this.contentLabel.AutoSize = true;
+            this.contentLabel.Location = new System.Drawing.Point(3, 303);
+            this.contentLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.contentLabel.Name = "contentLabel";
+            this.contentLabel.Size = new System.Drawing.Size(65, 12);
+            this.contentLabel.TabIndex = 8;
+            this.contentLabel.Text = "github_site";
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.dragRadioBtn);
+            this.groupBox1.Controls.Add(this.programRadioBtn);
+            this.groupBox1.Controls.Add(this.fullScreenRadioBtn);
             this.groupBox1.Location = new System.Drawing.Point(3, 23);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(255, 69);
@@ -223,11 +220,44 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "group1";
             // 
+            // dragRadioBtn
+            // 
+            this.dragRadioBtn.AutoSize = true;
+            this.dragRadioBtn.Location = new System.Drawing.Point(112, 21);
+            this.dragRadioBtn.Name = "dragRadioBtn";
+            this.dragRadioBtn.Size = new System.Drawing.Size(46, 16);
+            this.dragRadioBtn.TabIndex = 2;
+            this.dragRadioBtn.TabStop = true;
+            this.dragRadioBtn.Text = "btn3";
+            this.dragRadioBtn.UseVisualStyleBackColor = true;
+            // 
+            // programRadioBtn
+            // 
+            this.programRadioBtn.AutoSize = true;
+            this.programRadioBtn.Location = new System.Drawing.Point(59, 21);
+            this.programRadioBtn.Name = "programRadioBtn";
+            this.programRadioBtn.Size = new System.Drawing.Size(46, 16);
+            this.programRadioBtn.TabIndex = 1;
+            this.programRadioBtn.TabStop = true;
+            this.programRadioBtn.Text = "btn2";
+            this.programRadioBtn.UseVisualStyleBackColor = true;
+            // 
+            // fullScreenRadioBtn
+            // 
+            this.fullScreenRadioBtn.AutoSize = true;
+            this.fullScreenRadioBtn.Location = new System.Drawing.Point(7, 21);
+            this.fullScreenRadioBtn.Name = "fullScreenRadioBtn";
+            this.fullScreenRadioBtn.Size = new System.Drawing.Size(46, 16);
+            this.fullScreenRadioBtn.TabIndex = 0;
+            this.fullScreenRadioBtn.TabStop = true;
+            this.fullScreenRadioBtn.Text = "btn1";
+            this.fullScreenRadioBtn.UseVisualStyleBackColor = true;
+            // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButton6);
-            this.groupBox2.Controls.Add(this.radioButton5);
-            this.groupBox2.Controls.Add(this.radioButton4);
+            this.groupBox2.Controls.Add(this.userPathRadioBtn);
+            this.groupBox2.Controls.Add(this.desktopSaveRadioBtn);
+            this.groupBox2.Controls.Add(this.clipboardRadioBtn);
             this.groupBox2.Location = new System.Drawing.Point(3, 153);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(248, 69);
@@ -235,88 +265,53 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "group2";
             // 
-            // radioButton1
+            // userPathRadioBtn
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(7, 21);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(46, 16);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "btn1";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.userPathRadioBtn.AutoSize = true;
+            this.userPathRadioBtn.Location = new System.Drawing.Point(111, 21);
+            this.userPathRadioBtn.Name = "userPathRadioBtn";
+            this.userPathRadioBtn.Size = new System.Drawing.Size(46, 16);
+            this.userPathRadioBtn.TabIndex = 0;
+            this.userPathRadioBtn.TabStop = true;
+            this.userPathRadioBtn.Text = "btn6";
+            this.userPathRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // desktopSaveRadioBtn
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(59, 21);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(46, 16);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "btn2";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.desktopSaveRadioBtn.AutoSize = true;
+            this.desktopSaveRadioBtn.Location = new System.Drawing.Point(59, 21);
+            this.desktopSaveRadioBtn.Name = "desktopSaveRadioBtn";
+            this.desktopSaveRadioBtn.Size = new System.Drawing.Size(46, 16);
+            this.desktopSaveRadioBtn.TabIndex = 0;
+            this.desktopSaveRadioBtn.TabStop = true;
+            this.desktopSaveRadioBtn.Text = "btn5";
+            this.desktopSaveRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // clipboardRadioBtn
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(112, 21);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(46, 16);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "btn3";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(7, 21);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(46, 16);
-            this.radioButton4.TabIndex = 0;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "btn4";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(59, 21);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(46, 16);
-            this.radioButton5.TabIndex = 0;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "btn5";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(111, 21);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(46, 16);
-            this.radioButton6.TabIndex = 0;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "btn6";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.clipboardRadioBtn.AutoSize = true;
+            this.clipboardRadioBtn.Location = new System.Drawing.Point(7, 21);
+            this.clipboardRadioBtn.Name = "clipboardRadioBtn";
+            this.clipboardRadioBtn.Size = new System.Drawing.Size(46, 16);
+            this.clipboardRadioBtn.TabIndex = 0;
+            this.clipboardRadioBtn.TabStop = true;
+            this.clipboardRadioBtn.Text = "btn4";
+            this.clipboardRadioBtn.UseVisualStyleBackColor = true;
             // 
             // Capturer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 363);
-            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.tableLayoutPanel);
             this.Name = "Capturer";
             this.Text = "Capturer";
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel1.PerformLayout();
+            this.tableLayoutPanel.ResumeLayout(false);
+            this.tableLayoutPanel.PerformLayout();
             this.flowLayoutPanel2.ResumeLayout(false);
             this.flowLayoutPanel2.PerformLayout();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -326,27 +321,27 @@
         }
 
         #endregion
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel;
+        private System.Windows.Forms.Label captureModeLabel;
+        private System.Windows.Forms.Label pathSettingLabel;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label currentPathLabel;
+        private System.Windows.Forms.TextBox currentPathTextBox;
+        private System.Windows.Forms.Label hotKeyLabel;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label currentHoyKeyLabel;
+        private System.Windows.Forms.TextBox currentHotKeyTextBox;
+        private System.Windows.Forms.Button hoyKeyChangeButton;
+        private System.Windows.Forms.Label contactLabel;
+        private System.Windows.Forms.Label contentLabel;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton programRadioBtn;
+        private System.Windows.Forms.RadioButton fullScreenRadioBtn;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton dragRadioBtn;
+        private System.Windows.Forms.RadioButton userPathRadioBtn;
+        private System.Windows.Forms.RadioButton desktopSaveRadioBtn;
+        private System.Windows.Forms.RadioButton clipboardRadioBtn;
     }
 }
 

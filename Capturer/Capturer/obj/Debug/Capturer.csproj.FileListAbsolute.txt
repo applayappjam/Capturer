@@ -8,3 +8,13 @@ C:\Users\youseokhwan\Desktop\Capturer\Capturer\obj\Debug\Capturer.csproj.Generat
 C:\Users\youseokhwan\Desktop\Capturer\Capturer\obj\Debug\Capturer.csproj.CoreCompileInputs.cache
 C:\Users\youseokhwan\Desktop\Capturer\Capturer\obj\Debug\Capturer.exe
 C:\Users\youseokhwan\Desktop\Capturer\Capturer\obj\Debug\Capturer.pdb
+C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\bin\Debug\Capturer.exe.config
+C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\bin\Debug\Capturer.exe
+C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\bin\Debug\Capturer.pdb
+C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.csprojAssemblyReference.cache
+C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.Capturer.resources
+C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.Properties.Resources.resources
+C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.csproj.GenerateResource.cache
+C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.csproj.CoreCompileInputs.cache
+C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.exe
+C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.pdb
