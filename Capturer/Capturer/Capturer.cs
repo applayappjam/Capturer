@@ -37,38 +37,60 @@ namespace Capturer
 
         private void fullScreenRadioBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("전체화면 캡쳐");
+            //MessageBox.Show("전체화면 캡쳐");
             status.SelectedMode = 0;
         }
 
         private void programRadioBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("프로그램 캡쳐");
+            //MessageBox.Show("프로그램 선택하는 새로운 폼 팝업");
             status.SelectedMode = 1;
         }
 
         private void dragRadioBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("드래그 캡쳐");
+            //MessageBox.Show("드래그 캡쳐");
             status.SelectedMode = 2;
         }
 
         private void clipboardRadioBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("클립보드에 저장");
+            //MessageBox.Show("클립보드에 저장");
             status.SelectedSaveMode = 0;
+            this.currentPathTextBox.Text = "Clipboard";
         }
 
         private void desktopSaveRadioBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("바탕화면에 저장");
+            //MessageBox.Show("바탕화면에 저장");
             status.SelectedSaveMode = 1;
+            status.SelectedPath = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
+            this.currentPathTextBox.Text = status.SelectedPath;
         }
 
         private void userPathRadioBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("사용자 경로 설정하는 폴더다이얼로그 실행");
             status.SelectedSaveMode = 2;
+
+            // 폴더 선택 다이얼로그
+            FolderBrowserDialog dialog = new FolderBrowserDialog();
+            dialog.ShowDialog();
+            status.SelectedPath = dialog.SelectedPath;
+            this.currentPathTextBox.Text = status.SelectedPath;
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try {
+                System.Diagnostics.Process.Start("https://github.com/applayappjam/Capturer");
+            } catch {
+                MessageBox.Show("error");
+            }
+        }
+
+        private void Capturer_Load(object sender, EventArgs e)
+        {
+
         }
     }
 
@@ -103,9 +125,9 @@ namespace Capturer
 
         public Status() {
             this.selectedMode = 2; // 드래그 캡쳐를 디폴트로 지정
-            this.selectedPath = "test";
+            this.selectedPath = "";
             this.selectedSaveMode = 0; // 클립보드 저장을 디폴트로 지정
-            this.selectedHotKey = "test";
+            this.selectedHotKey = "";
         }
     }
 }
