@@ -1,0 +1,10 @@
+C:\Users\youseokhwan\Desktop\ProcessPractice\ProcessPractice\bin\Debug\ProcessPractice.exe.config
+C:\Users\youseokhwan\Desktop\ProcessPractice\ProcessPractice\bin\Debug\ProcessPractice.exe
+C:\Users\youseokhwan\Desktop\ProcessPractice\ProcessPractice\bin\Debug\ProcessPractice.pdb
+C:\Users\youseokhwan\Desktop\ProcessPractice\ProcessPractice\obj\Debug\ProcessPractice.csprojAssemblyReference.cache
+C:\Users\youseokhwan\Desktop\ProcessPractice\ProcessPractice\obj\Debug\ProcessPractice.Form1.resources
+C:\Users\youseokhwan\Desktop\ProcessPractice\ProcessPractice\obj\Debug\ProcessPractice.Properties.Resources.resources
+C:\Users\youseokhwan\Desktop\ProcessPractice\ProcessPractice\obj\Debug\ProcessPractice.csproj.GenerateResource.cache
+C:\Users\youseokhwan\Desktop\ProcessPractice\ProcessPractice\obj\Debug\ProcessPractice.csproj.CoreCompileInputs.cache
+C:\Users\youseokhwan\Desktop\ProcessPractice\ProcessPractice\obj\Debug\ProcessPractice.exe
+C:\Users\youseokhwan\Desktop\ProcessPractice\ProcessPractice\obj\Debug\ProcessPractice.pdb
