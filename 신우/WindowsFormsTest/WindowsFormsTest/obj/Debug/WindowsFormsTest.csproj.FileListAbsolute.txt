@@ -7,3 +7,12 @@ C:\Users\김신우\source\repos\WindowsFormsTest\WindowsFormsTest\obj\Debug\Wind
 C:\Users\김신우\source\repos\WindowsFormsTest\WindowsFormsTest\obj\Debug\WindowsFormsTest.csproj.CoreCompileInputs.cache
 C:\Users\김신우\source\repos\WindowsFormsTest\WindowsFormsTest\obj\Debug\WindowsFormsTest.exe
 C:\Users\김신우\source\repos\WindowsFormsTest\WindowsFormsTest\obj\Debug\WindowsFormsTest.pdb
+C:\Users\김신우\Desktop\C#\Capturer\신우\WindowsFormsTest\WindowsFormsTest\bin\Debug\WindowsFormsTest.exe.config
+C:\Users\김신우\Desktop\C#\Capturer\신우\WindowsFormsTest\WindowsFormsTest\bin\Debug\WindowsFormsTest.exe
+C:\Users\김신우\Desktop\C#\Capturer\신우\WindowsFormsTest\WindowsFormsTest\bin\Debug\WindowsFormsTest.pdb
+C:\Users\김신우\Desktop\C#\Capturer\신우\WindowsFormsTest\WindowsFormsTest\obj\Debug\WindowsFormsTest.csprojAssemblyReference.cache
+C:\Users\김신우\Desktop\C#\Capturer\신우\WindowsFormsTest\WindowsFormsTest\obj\Debug\WindowsFormsTest.Properties.Resources.resources
+C:\Users\김신우\Desktop\C#\Capturer\신우\WindowsFormsTest\WindowsFormsTest\obj\Debug\WindowsFormsTest.csproj.GenerateResource.cache
+C:\Users\김신우\Desktop\C#\Capturer\신우\WindowsFormsTest\WindowsFormsTest\obj\Debug\WindowsFormsTest.csproj.CoreCompileInputs.cache
+C:\Users\김신우\Desktop\C#\Capturer\신우\WindowsFormsTest\WindowsFormsTest\obj\Debug\WindowsFormsTest.exe
+C:\Users\김신우\Desktop\C#\Capturer\신우\WindowsFormsTest\WindowsFormsTest\obj\Debug\WindowsFormsTest.pdb
