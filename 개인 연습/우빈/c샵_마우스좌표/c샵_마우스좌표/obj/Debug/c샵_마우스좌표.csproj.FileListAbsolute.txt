@@ -1,0 +1,32 @@
+C:\Users\정우빈\source\repos\c샵_마우스좌표\c샵_마우스좌표\bin\Debug\c샵_마우스좌표.exe.config
+C:\Users\정우빈\source\repos\c샵_마우스좌표\c샵_마우스좌표\bin\Debug\c샵_마우스좌표.exe
+C:\Users\정우빈\source\repos\c샵_마우스좌표\c샵_마우스좌표\bin\Debug\c샵_마우스좌표.pdb
+C:\Users\정우빈\source\repos\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.csprojAssemblyReference.cache
+C:\Users\정우빈\source\repos\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.Form1.resources
+C:\Users\정우빈\source\repos\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.Properties.Resources.resources
+C:\Users\정우빈\source\repos\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.csproj.GenerateResource.cache
+C:\Users\정우빈\source\repos\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.csproj.CoreCompileInputs.cache
+C:\Users\정우빈\source\repos\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.exe
+C:\Users\정우빈\source\repos\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.pdb
+C:\Users\woobi\Desktop\c샵_마우스좌표\c샵_마우스좌표\bin\Debug\c샵_마우스좌표.exe.config
+C:\Users\woobi\Desktop\c샵_마우스좌표\c샵_마우스좌표\bin\Debug\c샵_마우스좌표.exe
+C:\Users\woobi\Desktop\c샵_마우스좌표\c샵_마우스좌표\bin\Debug\c샵_마우스좌표.pdb
+C:\Users\woobi\Desktop\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.csprojAssemblyReference.cache
+C:\Users\woobi\Desktop\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.Form1.resources
+C:\Users\woobi\Desktop\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.Properties.Resources.resources
+C:\Users\woobi\Desktop\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.csproj.GenerateResource.cache
+C:\Users\woobi\Desktop\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.csproj.CoreCompileInputs.cache
+C:\Users\woobi\Desktop\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.exe
+C:\Users\woobi\Desktop\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.pdb
+C:\Users\woobi\Desktop\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.Form2.resources
+D:\gitbash\Capturer\개인 연습\우빈\c샵_마우스좌표\c샵_마우스좌표\bin\Debug\c샵_마우스좌표.exe.config
+D:\gitbash\Capturer\개인 연습\우빈\c샵_마우스좌표\c샵_마우스좌표\bin\Debug\c샵_마우스좌표.exe
+D:\gitbash\Capturer\개인 연습\우빈\c샵_마우스좌표\c샵_마우스좌표\bin\Debug\c샵_마우스좌표.pdb
+D:\gitbash\Capturer\개인 연습\우빈\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.csprojAssemblyReference.cache
+D:\gitbash\Capturer\개인 연습\우빈\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.Form1.resources
+D:\gitbash\Capturer\개인 연습\우빈\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.Form2.resources
+D:\gitbash\Capturer\개인 연습\우빈\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.Properties.Resources.resources
+D:\gitbash\Capturer\개인 연습\우빈\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.csproj.GenerateResource.cache
+D:\gitbash\Capturer\개인 연습\우빈\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.csproj.CoreCompileInputs.cache
+D:\gitbash\Capturer\개인 연습\우빈\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.exe
+D:\gitbash\Capturer\개인 연습\우빈\c샵_마우스좌표\c샵_마우스좌표\obj\Debug\c샵_마우스좌표.pdb
