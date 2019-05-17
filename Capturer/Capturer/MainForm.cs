@@ -118,6 +118,11 @@ namespace Capturer
         {
 
         }
+
+        private void userPathRadioBtn_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
     /// <summary>

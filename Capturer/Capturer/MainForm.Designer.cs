@@ -67,26 +67,31 @@
             this.tableLayoutPanel.Controls.Add(this.groupBox2, 0, 1);
             this.tableLayoutPanel.Controls.Add(this.groupBox3, 0, 2);
             this.tableLayoutPanel.Controls.Add(this.groupBox4, 0, 3);
-            this.tableLayoutPanel.Location = new System.Drawing.Point(12, 12);
+            this.tableLayoutPanel.Location = new System.Drawing.Point(14, 15);
+            this.tableLayoutPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel.Name = "tableLayoutPanel";
             this.tableLayoutPanel.RowCount = 4;
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 95F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 125F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(260, 338);
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 119F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 156F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 69F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel.Size = new System.Drawing.Size(297, 422);
             this.tableLayoutPanel.TabIndex = 0;
             this.tableLayoutPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(253)))), ((int)(((byte)(247)))));
             this.groupBox1.Controls.Add(this.dragRadioBtn);
             this.groupBox1.Controls.Add(this.programRadioBtn);
             this.groupBox1.Controls.Add(this.fullScreenRadioBtn);
-            this.groupBox1.Location = new System.Drawing.Point(3, 3);
+            this.groupBox1.Font = new System.Drawing.Font("나눔바른고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.groupBox1.Location = new System.Drawing.Point(3, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(255, 89);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Size = new System.Drawing.Size(291, 111);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "▶︎ 촬영 모드";
@@ -94,22 +99,25 @@
             // dragRadioBtn
             // 
             this.dragRadioBtn.AutoSize = true;
+            this.dragRadioBtn.BackColor = System.Drawing.Color.White;
             this.dragRadioBtn.Checked = true;
-            this.dragRadioBtn.Location = new System.Drawing.Point(6, 65);
+            this.dragRadioBtn.Location = new System.Drawing.Point(7, 81);
+            this.dragRadioBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dragRadioBtn.Name = "dragRadioBtn";
-            this.dragRadioBtn.Size = new System.Drawing.Size(59, 16);
+            this.dragRadioBtn.Size = new System.Drawing.Size(68, 21);
             this.dragRadioBtn.TabIndex = 2;
             this.dragRadioBtn.TabStop = true;
             this.dragRadioBtn.Text = "드래그";
-            this.dragRadioBtn.UseVisualStyleBackColor = true;
+            this.dragRadioBtn.UseVisualStyleBackColor = false;
             this.dragRadioBtn.Click += new System.EventHandler(this.dragRadioBtn_Click);
             // 
             // programRadioBtn
             // 
             this.programRadioBtn.AutoSize = true;
-            this.programRadioBtn.Location = new System.Drawing.Point(6, 43);
+            this.programRadioBtn.Location = new System.Drawing.Point(7, 54);
+            this.programRadioBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.programRadioBtn.Name = "programRadioBtn";
-            this.programRadioBtn.Size = new System.Drawing.Size(99, 16);
+            this.programRadioBtn.Size = new System.Drawing.Size(110, 21);
             this.programRadioBtn.TabIndex = 1;
             this.programRadioBtn.Text = "프로그램 선택";
             this.programRadioBtn.UseVisualStyleBackColor = true;
@@ -118,9 +126,10 @@
             // fullScreenRadioBtn
             // 
             this.fullScreenRadioBtn.AutoSize = true;
-            this.fullScreenRadioBtn.Location = new System.Drawing.Point(6, 21);
+            this.fullScreenRadioBtn.Location = new System.Drawing.Point(7, 26);
+            this.fullScreenRadioBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.fullScreenRadioBtn.Name = "fullScreenRadioBtn";
-            this.fullScreenRadioBtn.Size = new System.Drawing.Size(71, 16);
+            this.fullScreenRadioBtn.Size = new System.Drawing.Size(81, 21);
             this.fullScreenRadioBtn.TabIndex = 0;
             this.fullScreenRadioBtn.Text = "전체화면";
             this.fullScreenRadioBtn.UseVisualStyleBackColor = true;
@@ -128,13 +137,17 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(253)))), ((int)(((byte)(247)))));
             this.groupBox2.Controls.Add(this.userPathRadioBtn);
             this.groupBox2.Controls.Add(this.flowLayoutPanel1);
             this.groupBox2.Controls.Add(this.desktopSaveRadioBtn);
             this.groupBox2.Controls.Add(this.clipboardRadioBtn);
-            this.groupBox2.Location = new System.Drawing.Point(3, 98);
+            this.groupBox2.Font = new System.Drawing.Font("나눔바른고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.groupBox2.Location = new System.Drawing.Point(3, 123);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(255, 119);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.Size = new System.Drawing.Size(291, 148);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "▶︎ 저장경로 설정";
@@ -142,43 +155,46 @@
             // userPathRadioBtn
             // 
             this.userPathRadioBtn.AutoSize = true;
-            this.userPathRadioBtn.Location = new System.Drawing.Point(7, 65);
+            this.userPathRadioBtn.Location = new System.Drawing.Point(8, 81);
+            this.userPathRadioBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.userPathRadioBtn.Name = "userPathRadioBtn";
-            this.userPathRadioBtn.Size = new System.Drawing.Size(87, 16);
+            this.userPathRadioBtn.Size = new System.Drawing.Size(97, 21);
             this.userPathRadioBtn.TabIndex = 0;
             this.userPathRadioBtn.Text = "사용자 지정";
             this.userPathRadioBtn.UseVisualStyleBackColor = true;
+            this.userPathRadioBtn.CheckedChanged += new System.EventHandler(this.userPathRadioBtn_CheckedChanged);
             this.userPathRadioBtn.Click += new System.EventHandler(this.userPathRadioBtn_Click);
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.currentPathLabel);
             this.flowLayoutPanel1.Controls.Add(this.currentPathTextBox);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 84);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 105);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(249, 29);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(285, 36);
             this.flowLayoutPanel1.TabIndex = 3;
             // 
             // currentPathLabel
             // 
             this.currentPathLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.currentPathLabel.AutoSize = true;
-            this.currentPathLabel.Location = new System.Drawing.Point(3, 7);
-            this.currentPathLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.currentPathLabel.Location = new System.Drawing.Point(3, 8);
+            this.currentPathLabel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.currentPathLabel.Name = "currentPathLabel";
-            this.currentPathLabel.Size = new System.Drawing.Size(85, 12);
+            this.currentPathLabel.Size = new System.Drawing.Size(92, 17);
             this.currentPathLabel.TabIndex = 0;
             this.currentPathLabel.Text = "→ 설정된 경로";
             // 
             // currentPathTextBox
             // 
             this.currentPathTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.currentPathTextBox.BackColor = System.Drawing.SystemColors.Control;
-            this.currentPathTextBox.Location = new System.Drawing.Point(94, 3);
+            this.currentPathTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(247)))), ((int)(((byte)(211)))));
+            this.currentPathTextBox.Location = new System.Drawing.Point(101, 4);
+            this.currentPathTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.currentPathTextBox.Name = "currentPathTextBox";
             this.currentPathTextBox.ReadOnly = true;
-            this.currentPathTextBox.Size = new System.Drawing.Size(152, 21);
+            this.currentPathTextBox.Size = new System.Drawing.Size(173, 25);
             this.currentPathTextBox.TabIndex = 1;
             this.currentPathTextBox.TabStop = false;
             this.currentPathTextBox.Text = "Clipboard";
@@ -186,9 +202,10 @@
             // desktopSaveRadioBtn
             // 
             this.desktopSaveRadioBtn.AutoSize = true;
-            this.desktopSaveRadioBtn.Location = new System.Drawing.Point(7, 43);
+            this.desktopSaveRadioBtn.Location = new System.Drawing.Point(8, 54);
+            this.desktopSaveRadioBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.desktopSaveRadioBtn.Name = "desktopSaveRadioBtn";
-            this.desktopSaveRadioBtn.Size = new System.Drawing.Size(71, 16);
+            this.desktopSaveRadioBtn.Size = new System.Drawing.Size(81, 21);
             this.desktopSaveRadioBtn.TabIndex = 0;
             this.desktopSaveRadioBtn.Text = "바탕화면";
             this.desktopSaveRadioBtn.UseVisualStyleBackColor = true;
@@ -197,22 +214,28 @@
             // clipboardRadioBtn
             // 
             this.clipboardRadioBtn.AutoSize = true;
+            this.clipboardRadioBtn.BackColor = System.Drawing.Color.White;
             this.clipboardRadioBtn.Checked = true;
-            this.clipboardRadioBtn.Location = new System.Drawing.Point(7, 21);
+            this.clipboardRadioBtn.Location = new System.Drawing.Point(8, 26);
+            this.clipboardRadioBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.clipboardRadioBtn.Name = "clipboardRadioBtn";
-            this.clipboardRadioBtn.Size = new System.Drawing.Size(71, 16);
+            this.clipboardRadioBtn.Size = new System.Drawing.Size(81, 21);
             this.clipboardRadioBtn.TabIndex = 0;
             this.clipboardRadioBtn.TabStop = true;
             this.clipboardRadioBtn.Text = "클립보드";
-            this.clipboardRadioBtn.UseVisualStyleBackColor = true;
+            this.clipboardRadioBtn.UseVisualStyleBackColor = false;
             this.clipboardRadioBtn.Click += new System.EventHandler(this.clipboardRadioBtn_Click);
             // 
             // groupBox3
             // 
+            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(253)))), ((int)(((byte)(247)))));
             this.groupBox3.Controls.Add(this.flowLayoutPanel2);
-            this.groupBox3.Location = new System.Drawing.Point(3, 223);
+            this.groupBox3.Font = new System.Drawing.Font("나눔바른고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.groupBox3.Location = new System.Drawing.Point(3, 279);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(255, 49);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox3.Size = new System.Drawing.Size(291, 61);
             this.groupBox3.TabIndex = 11;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "▶︎ 단축키";
@@ -221,18 +244,21 @@
             // 
             this.flowLayoutPanel2.Controls.Add(this.currentHotKeyTextBox);
             this.flowLayoutPanel2.Controls.Add(this.hoyKeyChangeButton);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(6, 14);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(7, 18);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(246, 29);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(281, 36);
             this.flowLayoutPanel2.TabIndex = 6;
             // 
             // currentHotKeyTextBox
             // 
             this.currentHotKeyTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.currentHotKeyTextBox.Location = new System.Drawing.Point(3, 4);
+            this.currentHotKeyTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(247)))), ((int)(((byte)(211)))));
+            this.currentHotKeyTextBox.Location = new System.Drawing.Point(3, 6);
+            this.currentHotKeyTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.currentHotKeyTextBox.Name = "currentHotKeyTextBox";
             this.currentHotKeyTextBox.ReadOnly = true;
-            this.currentHotKeyTextBox.Size = new System.Drawing.Size(192, 21);
+            this.currentHotKeyTextBox.Size = new System.Drawing.Size(219, 25);
             this.currentHotKeyTextBox.TabIndex = 1;
             this.currentHotKeyTextBox.TabStop = false;
             this.currentHotKeyTextBox.Text = " ";
@@ -241,22 +267,28 @@
             // hoyKeyChangeButton
             // 
             this.hoyKeyChangeButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.hoyKeyChangeButton.Location = new System.Drawing.Point(201, 3);
+            this.hoyKeyChangeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(242)))), ((int)(((byte)(182)))));
+            this.hoyKeyChangeButton.Location = new System.Drawing.Point(228, 4);
+            this.hoyKeyChangeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.hoyKeyChangeButton.Name = "hoyKeyChangeButton";
-            this.hoyKeyChangeButton.Size = new System.Drawing.Size(42, 23);
+            this.hoyKeyChangeButton.Size = new System.Drawing.Size(48, 29);
             this.hoyKeyChangeButton.TabIndex = 2;
             this.hoyKeyChangeButton.TabStop = false;
             this.hoyKeyChangeButton.Text = "변경";
-            this.hoyKeyChangeButton.UseVisualStyleBackColor = true;
+            this.hoyKeyChangeButton.UseVisualStyleBackColor = false;
             this.hoyKeyChangeButton.Click += new System.EventHandler(this.hoyKeyChangeButton_Click);
             // 
             // groupBox4
             // 
+            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(253)))), ((int)(((byte)(247)))));
             this.groupBox4.Controls.Add(this.linkLabel1);
             this.groupBox4.Controls.Add(this.label1);
-            this.groupBox4.Location = new System.Drawing.Point(3, 278);
+            this.groupBox4.Font = new System.Drawing.Font("나눔바른고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.groupBox4.Location = new System.Drawing.Point(3, 348);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(255, 57);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox4.Size = new System.Drawing.Size(291, 70);
             this.groupBox4.TabIndex = 12;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "▶︎ Info";
@@ -265,9 +297,9 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkArea = new System.Windows.Forms.LinkArea(12, 6);
-            this.linkLabel1.Location = new System.Drawing.Point(4, 36);
+            this.linkLabel1.Location = new System.Drawing.Point(5, 45);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(125, 19);
+            this.linkLabel1.Size = new System.Drawing.Size(146, 23);
             this.linkLabel1.TabIndex = 1;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Feedback -> GitHub";
@@ -277,9 +309,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 19);
+            this.label1.Location = new System.Drawing.Point(5, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(146, 12);
+            this.label1.Size = new System.Drawing.Size(175, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "2019년 1학기 Applay 앱잼";
             // 
@@ -292,13 +324,14 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(284, 366);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(242)))), ((int)(((byte)(182)))));
+            this.ClientSize = new System.Drawing.Size(325, 458);
             this.Controls.Add(this.tableLayoutPanel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.ShowInTaskbar = false;
