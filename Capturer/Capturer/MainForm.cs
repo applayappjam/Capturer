@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Capturer
 {
-    public partial class Capturer : Form
+    public partial class MainForm : Form
     {
         private Status status = new Status();
 
-        public Capturer()
+        public MainForm()
         {
             InitializeComponent();
         }

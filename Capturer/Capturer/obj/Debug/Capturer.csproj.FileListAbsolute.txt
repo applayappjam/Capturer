@@ -17,4 +17,4 @@ C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capture
 C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.csproj.CoreCompileInputs.cache
 C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.exe
 C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.pdb
-C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.Capturer.resources
+C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.MainForm.resources

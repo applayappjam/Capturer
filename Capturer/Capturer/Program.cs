@@ -21,7 +21,7 @@ namespace Capturer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Capturer());
+            Application.Run(new MainForm());
         }
     }
 }
