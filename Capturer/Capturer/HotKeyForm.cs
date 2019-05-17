@@ -47,7 +47,11 @@ namespace Capturer
         {
             this.currentHotKey.Text = this.NewHotKey.Text;
             Capturer.MainForm.status.SelectedHotKey = currentHotKey.Text;
-            MessageBox.Show("변경되었습니다!");
+            this.Dispose();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
     }

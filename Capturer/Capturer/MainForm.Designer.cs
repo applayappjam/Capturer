@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dragRadioBtn = new System.Windows.Forms.RadioButton();
@@ -47,6 +49,7 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.tableLayoutPanel.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -232,7 +235,7 @@
             this.currentHotKeyTextBox.Size = new System.Drawing.Size(192, 21);
             this.currentHotKeyTextBox.TabIndex = 1;
             this.currentHotKeyTextBox.TabStop = false;
-            this.currentHotKeyTextBox.Text = "Ctrl + C";
+            this.currentHotKeyTextBox.Text = " ";
             this.currentHotKeyTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // hoyKeyChangeButton
@@ -280,7 +283,14 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "2019년 1학기 Applay 앱잼";
             // 
-            // Capturer
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "Capturer";
+            this.notifyIcon1.Visible = true;
+            this.notifyIcon1.DoubleClick += new System.EventHandler(this.notifyicon_DoubleClick);
+            // 
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -288,11 +298,13 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(284, 366);
             this.Controls.Add(this.tableLayoutPanel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "Capturer";
+            this.Name = "MainForm";
+            this.ShowInTaskbar = false;
             this.Text = "Capturer";
             this.Load += new System.EventHandler(this.Capturer_Load);
+            this.Resize += new System.EventHandler(this.Notify_Resize);
             this.tableLayoutPanel.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -329,6 +341,7 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
 

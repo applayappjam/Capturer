@@ -7,16 +7,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Input;
 
 namespace Capturer
 {
     public partial class MainForm : Form
     {
-        private Status status = new Status();
+        public static Status status = new Status();
+        NotifyIcon notifyicon = new NotifyIcon();
 
         public MainForm()
         {
             InitializeComponent();
+            BackgroundForm backgroundForm = new BackgroundForm();
+            backgroundForm.Show();
+        }
+
+        private void Notify_Resize(object sender, EventArgs e)
+        {
+            if(this.WindowState == FormWindowState.Minimized)
+            {
+                this.Visible = false;
+                this.ShowIcon = false;
+
+                notifyIcon1.Visible = true;
+            }
+        }
+
+        private void notifyicon_DoubleClick(object sender, EventArgs e)
+        {
+            this.Visible = true;
+            this.ShowIcon = true;
+
+            this.WindowState = FormWindowState.Normal;
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -32,7 +55,10 @@ namespace Capturer
         /// <param name="e"></param>
         private void hoyKeyChangeButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("단축키 변경하는 폼 실행");
+            HotKeyForm hotKeyForm = new HotKeyForm();
+            hotKeyForm.ShowDialog();
+            // ShowDialog() kill한 후에
+            this.currentHotKeyTextBox.Text = status.SelectedPath;
         }
 
         private void fullScreenRadioBtn_Click(object sender, EventArgs e)
@@ -127,7 +153,7 @@ namespace Capturer
             this.selectedMode = 2; // 드래그 캡쳐를 디폴트로 지정
             this.selectedPath = "";
             this.selectedSaveMode = 0; // 클립보드 저장을 디폴트로 지정
-            this.selectedHotKey = "";
+            this.selectedHotKey = "Ctrl + O";
         }
     }
 }
