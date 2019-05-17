@@ -153,7 +153,7 @@ namespace Capturer
             this.selectedMode = 2; // 드래그 캡쳐를 디폴트로 지정
             this.selectedPath = "";
             this.selectedSaveMode = 0; // 클립보드 저장을 디폴트로 지정
-            this.selectedHotKey = "Ctrl + O";
+            this.selectedHotKey = "Control + O";
         }
     }
 }

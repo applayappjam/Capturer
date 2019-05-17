@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackgroundForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackgroundForm.Designer.cs">
+      <DependentUpon>BackgroundForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="FilterForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BackgroundForm.resx">
+      <DependentUpon>BackgroundForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotKeyForm.resx">
+      <DependentUpon>HotKeyForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
