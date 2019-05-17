@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HotKeyForm));
             this.currentHotKey = new System.Windows.Forms.TextBox();
             this.NewHotKey = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -57,7 +58,6 @@
             this.NewHotKey.Size = new System.Drawing.Size(115, 21);
             this.NewHotKey.TabIndex = 0;
             this.NewHotKey.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.NewHotKey.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyDownHotKey);
             // 
             // label1
             // 
@@ -102,11 +102,12 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.NewHotKey);
             this.Controls.Add(this.currentHotKey);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "HotKeyForm";
-            this.Text = "Form1";
+            this.Text = "단축키 변경";
             this.Load += new System.EventHandler(this.HotKeyForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

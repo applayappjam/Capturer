@@ -24,38 +24,39 @@ namespace Capturer
 
         }
 
-        private void KeyDownHotKey(object sender, KeyEventArgs e)
-        {
-            Keys key = e.KeyCode;
-            string stkey = key.ToString();
-            if (key == Keys.Escape)
-            {
-                MessageBox.Show("Esc는 단축키로 지정할 수 없습니다!");
-            }
-            //Ctrl + 키 입력시
-            else if ((Control.ModifierKeys & Keys.Control) == Keys.Control)
-            {
-                this.NewHotKey.Text = Keys.Control + " + " + stkey;
-            }
-            //Shift + 키 입력시
-            else if ((Control.ModifierKeys & Keys.Shift) == Keys.Shift)
-            {
-                this.NewHotKey.Text = Keys.Shift + " + " + stkey;
-            }
-            //Alt + 키 입력시
-            else if ((Control.ModifierKeys & Keys.Alt) == Keys.Alt)
-            {
-                this.NewHotKey.Text = Keys.Alt + " + " + stkey;
-            }
-            //키 입력시
-            else
-                this.NewHotKey.Text = stkey;
-        }
+        //private void KeyDownHotKey(object sender, KeyEventArgs e)
+        //{
+        //    Keys key = e.KeyCode;
+        //    string stkey = key.ToString();
+        //    if (key == Keys.Escape)
+        //    {
+        //        MessageBox.Show("Esc는 단축키로 지정할 수 없습니다!");
+        //    }
+        //    //Ctrl + 키 입력시
+        //    else if ((Control.ModifierKeys & Keys.Control) == Keys.Control)
+        //    {
+        //        this.NewHotKey.Text = Keys.Control + " + " + stkey;
+        //    }
+        //    //Shift + 키 입력시
+        //    else if ((Control.ModifierKeys & Keys.Shift) == Keys.Shift)
+        //    {
+        //        this.NewHotKey.Text = Keys.Shift + " + " + stkey;
+        //    }
+        //    //Alt + 키 입력시
+        //    else if ((Control.ModifierKeys & Keys.Alt) == Keys.Alt)
+        //    {
+        //        this.NewHotKey.Text = Keys.Alt + " + " + stkey;
+        //    }
+        //    //키 입력시
+        //    else
+        //        this.NewHotKey.Text = stkey;
+        //}
 
         private void ChangeHotKey(object sender, EventArgs e)
         {
             this.currentHotKey.Text = this.NewHotKey.Text;
             Capturer.MainForm.status.SelectedHotKey = currentHotKey.Text;
+            MainForm.currentHotKeyTextBox.Text = MainForm.status.SelectedHotKey;
             this.Dispose();
         }
 

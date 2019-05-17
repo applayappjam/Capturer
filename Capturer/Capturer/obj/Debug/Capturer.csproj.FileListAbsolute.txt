@@ -19,4 +19,5 @@ C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capture
 C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.pdb
 C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.MainForm.resources
 C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.HotKeyForm.resources
-C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.BackgroundForm.resources
+C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.FilterForm.resources
+C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.ProcessListForm.resources

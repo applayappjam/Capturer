@@ -8,19 +8,66 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Input;
+using System.Threading;
 
 namespace Capturer
 {
     public partial class MainForm : Form
     {
+        [System.Runtime.InteropServices.DllImport("user32.dll")]
+        private static extern bool SetProcessDPIAware();
+
         public static Status status = new Status();
         NotifyIcon notifyicon = new NotifyIcon();
 
         public MainForm()
         {
             InitializeComponent();
-            BackgroundForm backgroundForm = new BackgroundForm();
-            backgroundForm.Show();
+            this.KeyDown += new KeyEventHandler(MainForm_KeyDown);
+        }
+
+        private void MainForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            Keys key = e.KeyCode;
+            string stkey = key.ToString();
+            if((Control.ModifierKeys & Keys.Control) == Keys.Control)
+            {
+                MessageBox.Show(Keys.Control + " + " + stkey);
+            }
+
+            if (stkey == MainForm.status.SelectedHotKey)
+            {
+                this.Visible = false;
+                if (status.SelectedMode == 0) // 전체화면
+                {
+                    SetProcessDPIAware();
+                    Size size = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Size;
+
+                    Bitmap bitmap = new Bitmap(size.Width, size.Height);
+                    Graphics g = Graphics.FromImage(bitmap);
+                    g.CopyFromScreen(0, 0, 0, 0, size);
+
+                    if (status.SelectedSaveMode == 0)
+                    {
+                        Clipboard.SetImage(bitmap);
+                    }
+                    else
+                    {
+                        bitmap.Save(status.SelectedPath + @"\test.png");
+                    }
+                }
+                else if (status.SelectedMode == 1) // 프로그램 캡쳐
+                {
+
+                }
+
+                else // 영역 캡쳐
+                {
+                    Thread.Sleep(300);
+                    FilterForm filterForm = new FilterForm();
+                    filterForm.Show();
+                }
+            }
         }
 
         private void Notify_Resize(object sender, EventArgs e)
@@ -58,7 +105,7 @@ namespace Capturer
             HotKeyForm hotKeyForm = new HotKeyForm();
             hotKeyForm.ShowDialog();
             // ShowDialog() kill한 후에
-            this.currentHotKeyTextBox.Text = status.SelectedPath;
+            // currentHotKeyTextBox.Text = status.SelectedHotKey;
         }
 
         private void fullScreenRadioBtn_Click(object sender, EventArgs e)
@@ -122,6 +169,41 @@ namespace Capturer
         private void userPathRadioBtn_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            if (status.SelectedMode == 0) // 전체화면
+            {
+                SetProcessDPIAware();
+                Size size = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Size;
+
+                Bitmap bitmap = new Bitmap(size.Width, size.Height);
+                Graphics g = Graphics.FromImage(bitmap);
+                g.CopyFromScreen(0, 0, 0, 0, size);
+                
+                if(status.SelectedSaveMode == 0)
+                {
+                    Clipboard.SetImage(bitmap);
+                }
+                else
+                {
+                    bitmap.Save(status.SelectedPath + @"\test.png");
+                }
+            }
+            else if (status.SelectedMode == 1) // 프로그램 캡쳐
+            {
+                ProcessListForm processListForm = new ProcessListForm();
+                processListForm.Show();
+            }
+
+            else // 영역 캡쳐
+            {
+                Thread.Sleep(500);
+                FilterForm filterForm = new FilterForm();
+                filterForm.Show();
+            }
         }
     }
 
