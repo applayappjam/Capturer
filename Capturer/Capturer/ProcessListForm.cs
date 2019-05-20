@@ -1,4 +1,7 @@
-﻿using System;
+﻿// ProcessListForm은 다시 설계해야 함
+// MyProcess() 굳이 정의할 필요 없고,, processName만으로 캡쳐 구현해야 함
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,7 +21,6 @@ namespace Capturer
         public ProcessListForm()
         {
             InitializeComponent();
-
 
             for (int i = 0; i < myprocess.process.Length; i++)
             {

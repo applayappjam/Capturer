@@ -21,3 +21,16 @@ C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capture
 C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.HotKeyForm.resources
 C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.FilterForm.resources
 C:\Users\youseokhwan\Desktop\GitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.ProcessListForm.resources
+C:\Users\유석환\Desktop\MyGitHub\Capturer\Capturer\Capturer\bin\Debug\Capturer.exe.config
+C:\Users\유석환\Desktop\MyGitHub\Capturer\Capturer\Capturer\bin\Debug\Capturer.exe
+C:\Users\유석환\Desktop\MyGitHub\Capturer\Capturer\Capturer\bin\Debug\Capturer.pdb
+C:\Users\유석환\Desktop\MyGitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.csprojAssemblyReference.cache
+C:\Users\유석환\Desktop\MyGitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.FilterForm.resources
+C:\Users\유석환\Desktop\MyGitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.HotKeyForm.resources
+C:\Users\유석환\Desktop\MyGitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.MainForm.resources
+C:\Users\유석환\Desktop\MyGitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.ProcessListForm.resources
+C:\Users\유석환\Desktop\MyGitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.Properties.Resources.resources
+C:\Users\유석환\Desktop\MyGitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.csproj.GenerateResource.cache
+C:\Users\유석환\Desktop\MyGitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.csproj.CoreCompileInputs.cache
+C:\Users\유석환\Desktop\MyGitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.exe
+C:\Users\유석환\Desktop\MyGitHub\Capturer\Capturer\Capturer\obj\Debug\Capturer.pdb

@@ -16,7 +16,7 @@ namespace Capturer
         public HotKeyForm()
         {
             InitializeComponent();
-            this.currentHotKey.Text = MainForm.status.SelectedHotKey;
+            this.currentHotKey.Text = MainForm.status.selectedHotKey;
         }
 
         private void HotKeyForm_Load(object sender, EventArgs e)
@@ -52,11 +52,20 @@ namespace Capturer
         //        this.NewHotKey.Text = stkey;
         //}
 
+        /// <summary>
+        /// 단축키 변경 버튼을 누르면 status에 내용을 저장하고
+        /// 생성된 자식폼(this)을 종료합니다.
+        /// 
+        /// issue
+        /// 변경된 내용을 MainForm의 HotKeyLabel.Text에 저장시켜야 하는데 이 부분이 구현이 안됨.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ChangeHotKey(object sender, EventArgs e)
         {
             this.currentHotKey.Text = this.NewHotKey.Text;
-            Capturer.MainForm.status.SelectedHotKey = currentHotKey.Text;
-            MainForm.currentHotKeyTextBox.Text = MainForm.status.SelectedHotKey;
+            Capturer.MainForm.status.selectedHotKey = currentHotKey.Text;
+            MainForm.currentHotKeyTextBox.Text = MainForm.status.selectedHotKey;
             this.Dispose();
         }
 
